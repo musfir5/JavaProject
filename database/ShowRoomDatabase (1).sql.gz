@@ -1,0 +1,165 @@
+-- phpMyAdmin SQL Dump
+-- version 5.1.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Jun 29, 2022 at 09:23 PM
+-- Server version: 10.4.22-MariaDB
+-- PHP Version: 8.1.2
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `first`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `add1`
+--
+
+CREATE TABLE `add1` (
+  `ID` varchar(120) NOT NULL,
+  `model` varchar(120) NOT NULL,
+  `available` varchar(120) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `add1`
+--
+
+INSERT INTO `add1` (`ID`, `model`, `available`) VALUES
+('S0002', 'NTORQUE', 'YES'),
+('S0003', 'DEO', 'YES'),
+('S0004', 'VESPA', 'YES');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `booking`
+--
+
+CREATE TABLE `booking` (
+  `id` varchar(22) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `models` varchar(100) NOT NULL,
+  `available` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `booking`
+--
+
+INSERT INTO `booking` (`id`, `name`, `models`, `available`) VALUES
+('S0001', 'musfir T', 'tvs', 'YES'),
+('S0002', 'KNAKNNA', 'NTORQUE', 'YES'),
+('S0004', 'bffdsd', 'tvs', 'NO'),
+('S0006', '', '', 'NO');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `informations`
+--
+
+CREATE TABLE `informations` (
+  `id` varchar(115) NOT NULL,
+  `name` varchar(222) NOT NULL,
+  `address` varchar(222) NOT NULL,
+  `ph` varchar(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `informations`
+--
+
+INSERT INTO `informations` (`id`, `name`, `address`, `ph`) VALUES
+('D0024', 'arun', 'poiwijidjjd', '8483939393'),
+('D0025', 'akbar', 'vettom', '8483737333'),
+('D0026', 'musfir', 'Thandasseri \r\nvettom', '736547484'),
+('D0027', 'jsxslx', 'kmsmsas', 'kkixknxlk'),
+('D0029', 'muss', 'xnmsn', '1222'),
+('D0032', 'anshid', 'OK', '7878979'),
+('D0033', 'musfir', 'mkaolam', '5437586'),
+('D0034', 'sfhts', 'duwd', '57547578');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `login`
+--
+
+CREATE TABLE `login` (
+  `uname` varchar(222) NOT NULL,
+  `pass` varchar(225) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `login`
+--
+
+INSERT INTO `login` (`uname`, `pass`) VALUES
+('admin', '123'),
+('admin', '123'),
+('admin', '1234'),
+('1234', 'mishab'),
+('mishab', '12345'),
+('', ''),
+('', ''),
+('qwe', '123'),
+('mishab', '1234'),
+('abcd', '1234'),
+('sahmeem', '123'),
+('shameem', '123');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `service`
+--
+
+CREATE TABLE `service` (
+  `id` varchar(22) NOT NULL,
+  `registrationno` varchar(222) NOT NULL,
+  `date` varchar(222) NOT NULL,
+  `Stime` varchar(222) NOT NULL,
+  `pname` varchar(120) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `service`
+--
+
+INSERT INTO `service` (`id`, `registrationno`, `date`, `Stime`, `pname`) VALUES
+('S0001', 'c', 'Wed Jun 01 12:57:35 IST 2022', '11:00 - AM - 1:00. PM', 'cew'),
+('S0002', 'vgewcvvgregre', '2022-06-03', '9:00 - 11:00 .AM ', 'cawcg'),
+('S0003', 'sqs', '03-06-2022', '9:00 - 11:00 .AM ', 'SQ'),
+('S0004', 'KL 55 da 7676', '02-06-2022', '9:00 - 11:00 .AM ', 'disdjkj'),
+('S0005', 'KL 55 DF 6U78', '03-06-2022', '9:00 - 11:00 .AM ', 'JKHJHJLK'),
+('S0006', 'kl 65k5634', '02-06-2022', '11:00 - AM - 1:00. PM', 'mishab\n9656374771'),
+('S0007', 'KL 55 AD', '01-06-2022', '11:00 - AM - 1:00. PM', 'musfir'),
+('S0008', 'kl65j7654', '10-06-2022', '11:00 - AM - 1:00. PM', 'musfir\n65749547');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `booking`
+--
+ALTER TABLE `booking`
+  ADD PRIMARY KEY (`id`);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
