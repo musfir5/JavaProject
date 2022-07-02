@@ -133,7 +133,7 @@
         <Component class="javax.swing.JButton" name="jButton1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\dell\Pictures\images1.jpg"/>
+              <Image iconType="3" name="/stockmarketing/images1.jpg"/>
             </Property>
           </Properties>
           <Events>
@@ -154,7 +154,7 @@
         <Component class="javax.swing.JButton" name="jButton2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\dell\Pictures\images (1)1.jpg"/>
+              <Image iconType="3" name="/stockmarketing/images (1)1.jpg"/>
             </Property>
           </Properties>
           <Events>

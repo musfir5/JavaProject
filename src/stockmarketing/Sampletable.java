@@ -195,7 +195,7 @@ public class Sampletable extends javax.swing.JFrame {
             jTable1.getColumnModel().getColumn(0).setResizable(false);
         }
 
-        jButton6.setIcon(new javax.swing.ImageIcon("C:\\Users\\dell\\Pictures\\back2.jpg")); // NOI18N
+        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmarketing/back2.jpg"))); // NOI18N
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);

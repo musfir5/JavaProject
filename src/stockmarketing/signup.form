@@ -219,7 +219,7 @@
         <Component class="javax.swing.JLabel" name="jLabel5">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\dell\Pictures\800px_COLOURBOX2135954011.jpg"/>
+              <Image iconType="3" name="/stockmarketing/800px_COLOURBOX2135954011.jpg"/>
             </Property>
           </Properties>
         </Component>

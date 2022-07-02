@@ -139,7 +139,7 @@
               <Font name="Segoe UI" size="14" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\dell\Pictures\info.png"/>
+              <Image iconType="3" name="/stockmarketing/info.png"/>
             </Property>
           </Properties>
           <Events>
@@ -155,7 +155,7 @@
               <Font name="Segoe UI" size="14" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\dell\Pictures\servoce.png"/>
+              <Image iconType="3" name="/stockmarketing/servoce.png"/>
             </Property>
           </Properties>
           <Events>

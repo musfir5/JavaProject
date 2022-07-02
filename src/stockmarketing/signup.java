@@ -81,7 +81,7 @@ public class signup extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(0, 0, 102));
         jLabel4.setText("Sign Up to continue");
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\dell\\Pictures\\800px_COLOURBOX2135954011.jpg")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmarketing/800px_COLOURBOX2135954011.jpg"))); // NOI18N
 
         jButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\dell\\Pictures\\exit3.jpg")); // NOI18N
         jButton3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(0, 0, 153), null, null));

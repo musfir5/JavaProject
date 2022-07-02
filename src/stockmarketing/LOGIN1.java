@@ -52,7 +52,7 @@ public class LOGIN1 extends javax.swing.JFrame {
 
         jPanel1.setLayout(null);
         getContentPane().add(jPanel1);
-        jPanel1.setBounds(10, 383, 615, 392);
+        jPanel1.setBounds(10, 383, 0, 0);
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(51, 0, 51));
@@ -120,7 +120,7 @@ public class LOGIN1 extends javax.swing.JFrame {
         getContentPane().add(jButton1);
         jButton1.setBounds(580, 0, 30, 37);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\dell\\Pictures\\loginimage.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmarketing/loginimage.jpg"))); // NOI18N
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, 0, 615, 383);
 
